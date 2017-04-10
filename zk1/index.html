@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+var arr = [23,34,12,23,12,34,45];
+function fn1(arr){
+	var add=[];
+	for(var i=0;i<arr.length;i++){
+		if(add.indexOf(arr[i])==-1){
+			add.push(arr[i])
+		}
+	}
+	return add;
+}	
+console.log(fn1(arr));
+
+
+
+
+
+
+	</script>
+</body>
+</html>
